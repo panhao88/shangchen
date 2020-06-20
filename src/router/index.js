@@ -1,22 +1,67 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-
+import Layout from '../views/layout/Layout'
 Vue.use(VueRouter)
 
-  const routes = [
+const routes = [
+  {
+    path: '/home',
+    redirect: '/'
+  },
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Layout',
+    component: Layout,
+    children: [
+      {
+        path: '',
+        name: 'Home',
+        component: Home,
+        // meta: {
+        //   title: '首页',
+        // }
+      },
+      {
+        path: 'classification',
+        name: 'classificationg',
+        component: () => import('../views/classification/classification.vue'),
+        // meta: {
+        //   title: '分类',
+        // }
+      },
+      {
+        path: 'Cart',
+        name: 'Cart',
+        component: () => import('../views/Cart/Cart.vue'),
+        // meta: {
+        //   title: '购物车',
+        // }
+      },
+      {
+        path: 'my',
+        name: 'my',
+        component: () => import('../views/my/my.vue'),
+        // meta: {
+        //   title: '我的',
+        // }
+      },
+    ]
+  },
+  // 登录注册
+  {
+    path: '/land',
+    name: 'land',
+    component: () => import('../views/land/land')
   },
   {
     path: '/about',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import('../views/About.vue')
+  },
+  {
+    path: '*',
+    component: () => import('../views/err/err.vue')
   }
 ]
 
