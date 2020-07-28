@@ -11,9 +11,9 @@
         <span class="box">&yen;{{item.mallPrice}}</span>
         <div class="chakan">
           <div class="chakan1">
-              <van-icon name="cart" badge color="red" size="27" />
+              <van-icon name="cart" badge color="red" size="27" @click="goto(index)"/>
           </div>
-          <div>查看详情</div>
+          <div @click="goDetail(index)">查看详情</div>
         </div>
       </div>
     </div>
@@ -25,7 +25,10 @@
 import BScroll from "better-scroll";
 export default {
   data() {
-    return {};
+    return {
+      id:"",
+      username:''
+    };
   },
   props: {
     recommend: {
@@ -33,13 +36,42 @@ export default {
     }
   },
   components: {},
-  methods: {},
-  //    字体隐藏
+  methods: {
+    // 查看详情页根据下标index把id传过去
+      goDetail(index) {
+      this.$router.push({
+        path: "/detail",
+        query: { id:this.recommend[index].goodsId }
+      });
+      // 判断本地有没有最近浏览的数组
+      this.$utils.goDetail(this.recommend[index]);
+    },
+    // 加入购物车先判断登录没有
+    goto(index){
+      if(this.username === ''){
+        this.$dialog.confirm({message:'你还没有登录，请登录'}).then(res => {
+          this.$router.push('/land')
+        }).catch(err => {})
+      }else{
+        this.$api.addShop({
+          id:this.recommend[index].goodsId
+        }).then(res => {
+          this.$toast.success('加入购物车成功')
+        }).catch(err =>{
+          console.log(err);
+        })
+      }
+    }
+  },
+  //  平滑
   mounted() {
     new BScroll(this.$refs.container, {
       scrollX: true,
       click: true
     });
+    if (localStorage.getItem("username")) {
+      this.username = localStorage.getItem("username");
+    }
   },
   watch: {},
   computed: {}

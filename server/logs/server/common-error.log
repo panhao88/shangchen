@@ -1,0 +1,862 @@
+2020-07-27 14:14:16,612 ERROR 1440 [-/127.0.0.1/-/134ms POST /v1/deleteAddress] nodejs.CastError: Cast to ObjectId failed for value "{
+  name: '',
+  tel: '',
+  country: '',
+  province: '',
+  city: '',
+  county: '',
+  areaCode: '',
+  postalCode: '',
+  addressDetail: '',
+  isDefault: false
+}" at path "_id" for model "Address"
+  name: '',
+  tel: '',
+  country: '',
+  province: '',
+  city: '',
+  county: '',
+  areaCode: '',
+  postalCode: '',
+  addressDetail: '',
+  isDefault: false
+}" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3102:8)
+    at model.Query._wrappedThunk [as _findOneAndDelete] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"{\n  name: '',\n  tel: '',\n  country: '',\n  province: '',\n  city: '',\n  county: '',\n  areaCode: '',\n  postalCode: '',\n  addressDetail: '',\n  isDefault: false\n}\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"{\n  name: '',\n  tel: '',\n  country: '',\n  province: '',\n  city: '',\n  county: '',\n  areaCode: '',\n  postalCode: '',\n  addressDetail: '',\n  isDefault: false\n}\""
+kind: "ObjectId"
+value: {"name":"","tel":"","country":"","province":"","city":"","county":"","areaCode":"","postalCode":"","addressDetail":"","isDefault":false}
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:36:16,087 ERROR 1440 [-/127.0.0.1/-/4ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:36:17,583 ERROR 1440 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:37:15,320 ERROR 1440 [-/127.0.0.1/-/4ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:37:15,564 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:37:15,576 ERROR 1440 [-/127.0.0.1/-/5ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:37:25,747 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:37:27,855 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:37:29,190 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:37:30,338 ERROR 1440 [-/127.0.0.1/-/4ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:37:31,891 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:37:40,583 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "3" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"3\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"3\""
+kind: "ObjectId"
+value: "3"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:58:29,702 ERROR 1440 [-/127.0.0.1/-/21ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 14:59:14,026 ERROR 1440 [-/127.0.0.1/-/18ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:02:39,912 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:02:40,640 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:02:41,549 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:02:41,783 ERROR 1440 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:03:10,033 ERROR 1440 [-/127.0.0.1/-/4ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:15:59,307 ERROR 1440 [-/127.0.0.1/-/4ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:16:00,028 ERROR 1440 [-/127.0.0.1/-/4ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:16:01,363 ERROR 1440 [-/127.0.0.1/-/5ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:20:39,663 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:20:50,284 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 15:20:52,509 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 17:00:20,469 ERROR 1440 [-/127.0.0.1/-/7ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 17:02:47,269 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 17:02:49,208 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 17:03:10,629 ERROR 1440 [-/127.0.0.1/-/4ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 17:03:42,628 ERROR 1440 [-/127.0.0.1/-/2ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 20:25:11,105 ERROR 1440 [-/127.0.0.1/-/75ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "2" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"2\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"2\""
+kind: "ObjectId"
+value: "2"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-27 20:25:11,422 ERROR 1440 [-/127.0.0.1/-/3ms POST /v1/setDefaultAddress] nodejs.CastError: Cast to ObjectId failed for value "1" at path "_id" for model "Address"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at ObjectId.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\objectid.js:244:11)
+    at ObjectId.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at ObjectId.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at ObjectId.SchemaType.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1352:15)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:307:32)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at castQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4389:18)
+    at model.Query.Query._findAndModify (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:3331:23)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2928:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to ObjectId failed for value \"1\" at path \"_id\" for model \"Address\""
+name: "CastError"
+stringValue: "\"1\""
+kind: "ObjectId"
+value: "1"
+path: "_id"
+reason: undefined
+model: undefined
+pid: 1440
+hostname: SC-202005061634
+
+2020-07-28 08:42:20,249 ERROR 3180 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 3180
+hostname: SC-202005061634
+

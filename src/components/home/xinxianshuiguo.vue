@@ -2,7 +2,7 @@
   <div class="box">
     <div class="box2">
 
-      <div v-for="(item,index) in category" :key="index">
+      <div v-for="(item,index) in category" :key="index"  @click="goClassFaction(item,index)">
         <div>
           <img class="img" :src="item.image" alt />
           <div>{{item.mallCategoryName}}</div>
@@ -29,7 +29,11 @@ export default {
     }
   },
   components: {},
-  methods: {},
+  methods: {
+    goClassFaction(item,index){
+      this.$router.push({path:'/classification',query:{index,index}})
+    },
+  },
   mounted() {},
   watch: {},
   computed: {}

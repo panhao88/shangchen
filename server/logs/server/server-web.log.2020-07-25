@@ -1,0 +1,1063 @@
+2020-07-21 17:39:11,912 ERROR 8464 [-/127.0.0.1/-/293ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:39:12,170 ERROR 8464 [-/127.0.0.1/-/58ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:39:12,184 ERROR 8464 [-/127.0.0.1/-/69ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:39:12,296 ERROR 8464 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:39:12,477 ERROR 8464 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:39:12,785 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:39:12,979 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:39:14,384 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:40:23,646 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:40:24,738 ERROR 8464 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:40:25,007 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:40:26,139 ERROR 8464 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:42:23,334 ERROR 8464 [-/127.0.0.1/-/8ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:42:23,685 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:42:24,193 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:42:36,105 ERROR 8464 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:42:36,362 ERROR 8464 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:42:36,483 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:47:57,197 ERROR 8464 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:47:57,921 ERROR 8464 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:48:06,771 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:48:08,351 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:50:15,680 ERROR 8464 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:50:16,986 ERROR 8464 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:50:17,203 ERROR 8464 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:50:17,487 ERROR 8464 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:35,226 ERROR 8464 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:35,473 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:35,976 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:36,468 ERROR 8464 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:51,095 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:53,127 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:54,308 ERROR 8464 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:54,654 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:55,496 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:55,711 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:55,858 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:56,091 ERROR 8464 [-/127.0.0.1/-/6ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:56,267 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:56,532 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:56,796 ERROR 8464 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:53:56,988 ERROR 8464 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:56:32,815 ERROR 8464 [-/127.0.0.1/-/7ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 17:56:33,094 ERROR 8464 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 18:10:11,637 ERROR 8464 [-/127.0.0.1/-/5ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 18:10:11,875 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 18:10:12,640 ERROR 8464 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 18:10:37,229 ERROR 8464 [-/127.0.0.1/-/3ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 18:10:37,846 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 18:10:38,145 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 18:10:38,630 ERROR 8464 [-/127.0.0.1/-/2ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-21 18:10:38,882 ERROR 8464 [-/127.0.0.1/-/4ms POST /v1/collection] nodejs.TypeError: Cannot read property 'id' of null
+    at OperatingGoodsController.collection (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:16:24)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:13
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:50
+    at async xframe (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xframe.js:7:5)
+    at async xssProtection (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\xssProtection.js:7:5)
+    at async nosniff (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\nosniff.js:8:5)
+    at async noopen (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-security\lib\middlewares\noopen.js:8:5)
+    at async session (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-session\index.js:41:7)
+    at async bodyParser (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-bodyparser\index.js:86:5)
+    at async C:\Users\Administrator\Desktop\shang\server\node_modules\koa-static-cache\index.js:51:63
+    at async notfound (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\notfound.js:5:5)
+    at async meta (C:\Users\Administrator\Desktop\shang\server\node_modules\egg\app\middleware\meta.js:12:5)
+
+pid: 8464
+hostname: SC-202005061634
+
+2020-07-23 16:22:56,328 ERROR 7552 [-/127.0.0.1/-/322ms POST /v1/addShop] nodejs.CastError: Cast to string failed for value "{ id: '238bc2e023844769a6b67d9a4c04b2ea' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2038:8)
+    at model.Query._wrappedThunk [as _findOne] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to string failed for value \"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ id: '238bc2e023844769a6b67d9a4c04b2ea' }\""
+kind: "string"
+value: {"id":"238bc2e023844769a6b67d9a4c04b2ea"}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 7552
+hostname: SC-202005061634
+
+2020-07-23 16:22:57,829 ERROR 7552 [-/127.0.0.1/-/2ms POST /v1/addShop] nodejs.CastError: Cast to string failed for value "{ id: '24afea564e5248b5a2bc59da95f09911' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2038:8)
+    at model.Query._wrappedThunk [as _findOne] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to string failed for value \"{ id: '24afea564e5248b5a2bc59da95f09911' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ id: '24afea564e5248b5a2bc59da95f09911' }\""
+kind: "string"
+value: {"id":"24afea564e5248b5a2bc59da95f09911"}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 7552
+hostname: SC-202005061634
+
+2020-07-23 16:23:01,205 ERROR 7552 [-/127.0.0.1/-/1ms POST /v1/addShop] nodejs.CastError: Cast to string failed for value "{ id: '418fc60784d04e71beffe1ce5174c947' }" at path "cid" for model "ShopList"
+    at new CastError (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\error\cast.js:29:11)
+    at SchemaString.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\string.js:553:11)
+    at SchemaString.SchemaType.applySetters (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:948:12)
+    at SchemaString.SchemaType._castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1362:15)
+    at SchemaString.castForQuery (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schema\string.js:609:15)
+    at SchemaString.SchemaType.castForQueryWrapper (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\schematype.js:1331:15)
+    at cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\cast.js:252:34)
+    at model.Query.Query.cast (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:4576:12)
+    at model.Query.Query._castConditions (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:1783:10)
+    at model.Query.<anonymous> (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\query.js:2038:8)
+    at model.Query._wrappedThunk [as _findOne] (C:\Users\Administrator\Desktop\shang\server\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\kareem\index.js:369:33
+    at processTicksAndRejections (internal/process/task_queues.js:79:11)
+message: "Cast to string failed for value \"{ id: '418fc60784d04e71beffe1ce5174c947' }\" at path \"cid\" for model \"ShopList\""
+name: "CastError"
+stringValue: "\"{ id: '418fc60784d04e71beffe1ce5174c947' }\""
+kind: "string"
+value: {"id":"418fc60784d04e71beffe1ce5174c947"}
+path: "cid"
+reason: undefined
+model: undefined
+pid: 7552
+hostname: SC-202005061634
+

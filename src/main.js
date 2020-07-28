@@ -5,7 +5,9 @@ import store from './store'
 import api from './http/api'
 import Vant from 'vant';
 import 'vant/lib/index.css';
+import utils from './utils';
 
+Vue.prototype.$utils = utils
 Vue.prototype.$api = api;
 Vue.use(Vant);
 

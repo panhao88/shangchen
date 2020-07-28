@@ -4,12 +4,12 @@
       <div class="box2">
         <div class="box3">
           <div>登录/&nbsp;&nbsp;注册</div>
-          <van-cell-group :rules="rules">
+          <van-cell-group>
             <div>
               <van-field v-model="username" placeholder="USERNAME" />
             </div>
           </van-cell-group>
-          <van-cell-group :rules="rules">
+          <van-cell-group>
             <div>
               <van-field v-model="password" placeholder="PASSWORD" />
             </div>
@@ -26,13 +26,13 @@
           </div>
 
           <div>
-            <van-field v-model="verify" center clearable label="验证码" placeholder="请输入验证码">
-              <div v-html="code1" @click="getto"></div>
-            </van-field>
+            <van-field v-model="verify" center clearable label="验证码" placeholder="请输入验证码"></van-field>
+            <div v-html="code1" @click="getto"></div>
           </div>
 
           <div>
             <van-button type="primary" @click="mito">登录</van-button>
+
             <van-button type="info" @click="getout">注册</van-button>
           </div>
         </div>
@@ -62,7 +62,7 @@ export default {
     down() {
       const TIME_COUNT = 60;
       if (!this.timer) {
-        this.count = TIME_COUNE;
+        this.count = TIME_COUNT;
         this.show = false;
         this.timer = setInterval(() => {
           if (this.count > 0 && this.count <= TIME_COUNT) {
@@ -81,6 +81,7 @@ export default {
         .verify()
         .then(res => {
           this.code1 = res;
+          // console.log(res);
         })
         .catch(err => {
           console.log(err);
@@ -89,12 +90,13 @@ export default {
     // 注册
     getout() {
       this.$api
-        .resgister({
+        .register({
           nickname: this.username,
           password: this.password,
           verify: this.verify
         })
         .then(res => {
+          console.log(res);
           if (res.code === 200) {
             this.$dialog.alert({
               message: "注册成功"
@@ -124,14 +126,17 @@ export default {
           nickname: this.username,
           password: this.password,
           verify: this.verify
+
         })
         .then(res => {
+          console.log(res);
           if (res.code === 200) {
             this.$dialog.alert({
               message: "登录成功"
             });
-            // 本地存储
             localStorage.setItem("username", this.username);
+            this.$router.push('/my');
+            // 本地存储
           } else if (res.code === 1) {
             this.dialog.alert({
               message: "用户名或密码错误"

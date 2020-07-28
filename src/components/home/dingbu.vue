@@ -4,27 +4,28 @@
       <div class="box1">{{city}}</div>
 
       <div class="box2">
-        <form action="/">
-  <van-search
-    v-model="value"
-    show-action
-    placeholder="请输入搜索关键词"
-    @search="onSearch"
-    @cancel="onCancel"
-  />
-</form>
+        <van-search
+          value=""
+          placeholder="请输入搜索关键词"
+          use-action-slot
+          bind:change="onChange"
+          bind:search="onSearch"
+        >
+        </van-search>
+        <div class="sou">搜索</div>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import { Toast } from 'vant';
+import { Toast } from "vant";
 export default {
   data() {
     return {
       city: "",
-      value: '',
+      value: "",
+      AMap :''
     };
   },
   components: {},
@@ -33,8 +34,8 @@ export default {
       Toast(val);
     },
     onCancel() {
-      Toast('取消');
-    },
+      Toast("取消");
+    }
   },
   mounted() {
     let _this = this;
@@ -75,18 +76,20 @@ export default {
 .box {
   width: 100%;
   height: 55px;
-  // border: solid 1px red;
   display: flex;
   align-items: center;
-  // justify-content: space-around;
-  position: relative;
 }
 .box1 {
   position: absolute;
   left: 30px;
 }
 .box2 {
+  display: flex;
   position: absolute;
   left: 100px;
+}
+.sou{
+  display: flex;
+  align-items: center;
 }
 </style>
