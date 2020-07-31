@@ -47,10 +47,10 @@
       </div>
     </div>
     <div>
-      <van-cell class="box2" icon="cart-circle-o" title="全部订单" is-link />
-      <van-cell class="box2" icon="star-o" title="收藏商品" is-link />
+      <van-cell class="box2" icon="cart-circle-o" title="全部订单" is-link  @click="orders"/>
+      <van-cell class="box2" icon="star-o" title="收藏商品" is-link  @click="Collection"/>
       <van-cell class="box2" icon="location-o" title="地址管理" is-link  @click="dizhi"/>
-      <van-cell class="box2" icon="todo-list-o" title="最近浏览" is-link />
+      <van-cell class="box2" icon="todo-list-o" title="最近浏览" is-link  @click="visit"/>
     </div>
   </div>
 </template>
@@ -94,9 +94,21 @@ export default {
     didi2(){
       this.$router.push('/wancheng')
     },
-    // 地址
+    // 地址管理
     dizhi(){
       this.$router.push('/dizhi')
+    },
+    // 全部订单
+    orders(){
+      this.$router.push('/orders')
+    },
+    // 收藏商品
+    Collection(){
+      this.$router.push('/Collection')
+    },
+    // 最近游览
+    visit(){
+      this.$router.push('/visit')
     }
   },
   mounted() {

@@ -3,7 +3,7 @@
       <div class="didi1">
       <div><span class="didi2">3F</span>{{floorName.floor3}}</div>
     </div>
-     <div v-for="(item,index) in floor3" :key="index">
+     <div v-for="(item,index) in floor3" :key="index" @click="didi(index)">
          <div :class="[{'left':(index <= 0)},{'right':(index >=1)}]">
              <img :src="item.image" alt="">
          </div>
@@ -15,7 +15,7 @@
  export default {
    data () {
      return {
-
+         id:''
      }
    },
    props:{
@@ -31,7 +31,9 @@
    },
    
    methods: {
-
+       didi(index){
+           this.$router.push({path:'/detail',query:{id:this.floor3[index].goodsId}})
+       }
    },
    mounted() {
 

@@ -24,15 +24,24 @@
             </div>
           </div>
         </div>
-        <van-field v-model="username" label="用户名" />
-
-        <van-field v-model="nickname" label="昵称" />
-
-        <van-field v-model="gender" label="性别" />
-
-        <van-field v-model="email" label="邮箱" />
-
-        <van-field v-model="text" label="出生年月" />
+        <van-cell-group>
+          <van-field v-model="userInfo.username" label="用户名" placeholder="请输入用户名"></van-field>
+          <van-field v-model="userInfo.nickname" label="昵称" placeholder="请输入昵称"></van-field>
+          <van-field v-model="userInfo.gender" label="性别" placeholder="请选择性别"></van-field>
+          <van-field v-model="userInfo.email" label="邮箱" placeholder="请输入邮箱"></van-field>
+          <van-field v-model="text" label="出生年月" placeholder="请输入出生年月" @click="showPopup"></van-field>
+          <van-popup v-model="show" position="bottom" :style="{ height: '40%' }">
+            <van-datetime-picker
+              v-model="currentDate"
+              type="date"
+              title="选择年月日"
+              :min-date="minDate"
+              :max-date="maxDate"
+              @confirm="value111"
+              @cancel="cancel"
+            />
+          </van-popup>
+        </van-cell-group>
       </div>
       <div class="toto">
         <van-button type="primary" style="width:90%" @click="queren">确认</van-button>
@@ -42,22 +51,26 @@
       </div>
     </div>
     <div v-else>
-        <div class="bot1">
-            <h3>亲爱的潘潘，你还没有登陆哦</h3>
-            <button>去登陆</button>
+      <div class="bot1">
+        <div>
+          <h4>亲爱的潘潘，你还没有登陆哦</h4>
         </div>
+        <div>
+          <van-button type="info" @click="goto">去登录</van-button>
+        </div>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
+import dayjs from "dayjs";
 export default {
   name: "",
   props: {},
   components: {},
   data() {
     return {
-      username: "",
       userInfo: {},
       value: "",
       username: "",
@@ -67,31 +80,84 @@ export default {
       year: "",
       month: "",
       day: "",
-      text: ""
+      text: "",
+      show: false,
+      minDate: new Date(1970, 0, 1),
+      maxDate: new Date(2025, 10, 1),
+      currentDate: new Date()
+      // b:'',
+      // c:'',
+      // d:""
     };
   },
   methods: {
     uploader() {
       this.$router.push("");
     },
-    queren() {},
+    goto() {
+      this.$router.push("/land");
+    },
+
+    // 出生年月
+    // jdkk(){
+    //   // replace替换
+    //   let a=this.text;
+    //   a=a.replace("年","-");
+    //   a=a.replace("月","-");
+    //   a=a.replace("日","");
+    //   this.c=new Date(a).getFullYear()
+    //   this.b=new Date(a).getMonth()+1
+    //   this.d=new Date(a).getDate()
+    // },
+    queren() {
+      this.$api
+        .saveUser({
+          nickname: this.userInfo.nickname,
+          gender: this.userInfo.gender,
+          year: this.userInfo.year,
+          month: this.userInfo.month,
+          day: this.userInfo.day,
+
+          // year: this.c,
+          // month: this.b,
+          // day: this.d,
+          id: this.userInfo._id
+        })
+        .then(res => {
+          if (res.code === 200) {
+            this.$toast.success("修改成功");
+            this.$router.push("/my");
+          }
+        })
+        .catch(err => {});
+    },
     quxiao() {},
-    nima(){
-        this.$router.push('my')
+    showPopup() {
+      this.show = true;
+    },
+     cancel() {
+      this.show = false;
+    },
+    value111(value) {
+      this.show = false;
+      this.userInfo.year = dayjs(value).year();
+      this.userInfo.month = dayjs(value).month();
+      this.userInfo.day = dayjs(value).date();
+      this.text = dayjs(value).format("YY年MM月DD日");
+    },
+    nima() {
+      this.$router.go(-1);
     }
   },
   mounted() {
     this.$api
-      .queryUser({})
+      .queryUser()
       .then(res => {
         this.userInfo = res.userInfo;
-        this.username = res.userInfo.username;
-        this.nickname = res.userInfo.nickname;
-        this.gender = res.userInfo.gender;
         this.year = res.userInfo.year;
         this.month = res.userInfo.month;
         this.day = res.userInfo.day;
-        this.text = `${this.year}年${this.month}月${this.day}日`;
+        this.text = `${this.userInfo.year}年${this.userInfo.month}月${this.userInfo.day}日`;
         console.log(res);
       })
       .catch(err => {
@@ -147,10 +213,11 @@ export default {
   display: flex;
   justify-content: center;
 }
-.bot1{
-    width: 100%;
-    display:flex;
-    justify-content: center;
-    
+.bot1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
 }
 </style>

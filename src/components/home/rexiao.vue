@@ -5,7 +5,7 @@
         <div>热销商品</div>
       </div>
       <div class="toyou">
-        <div v-for="(item,index) in hotGoods" :key="index">
+        <div v-for="(item,index) in hotGoods" :key="index"  @click="goDetail(index)">
           <div class="hghg">
             <img class="img" :src="item.image" alt />
             <div class="font">{{item.name}}</div>
@@ -23,7 +23,9 @@
 <script>
 export default {
   data() {
-    return {};
+    return {
+      id:''
+    };
   },
   props: {
     hotGoods: {
@@ -31,7 +33,14 @@ export default {
     }
   },
   components: {},
-  methods: {},
+  methods: {
+    goDetail(index){
+      this.$router.push({
+        path:'/detail',
+        query:{id:this.hotGoods[index].goodsId}
+      })
+    }
+  },
   mounted() {},
   watch: {},
   computed: {}

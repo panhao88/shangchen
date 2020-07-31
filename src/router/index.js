@@ -106,6 +106,62 @@ const routes = [
     }
   },
   {
+    path: '/pingjia2',
+    name: 'pingjia2',
+    component: () => import('../views/pingjia2/pngjia2.vue'),
+    meta: {
+      title: '评价中心'
+    }
+  },
+  {
+    path: '/pingjia3',
+    name: 'pingjia3',
+    component: () => import('../views/pingjia3/pingjia3.vue'),
+    meta: {
+      title: '评价中心'
+    }
+  },
+  {
+    path: '/orders',
+    name: 'orders',
+    component: () => import('../views/orders/orders.vue'),
+    meta: {
+      title: '全部订单'
+    }
+  },
+  {
+    path: '/Collection',
+    name: 'Collection',
+    component: () => import('../views/Collection/Collection.vue'),
+    meta: {
+      title: '全部订单'
+    }
+  },
+  {
+    path: '/City',
+    name: 'City',
+    component: () => import('../views/city/City.vue'),
+    meta: {
+      title: '城市列表'
+    }
+  },
+  {
+    path: '/sousuo',
+    name: 'sousuo',
+    component: () => import('../views/sousuo/sousuo'),
+    meta: {
+      title: '模糊搜索'
+    }
+  },
+  {
+    path: '/visit',
+    name: 'visit',
+    component: () => import('../views/visit/visit.vue'),
+    meta: {
+      title: '最近游览'
+    }
+  },
+  {
     path: '/wancheng',
     name: 'wancheng',
     component: () => import('../views/wancheng/wancheng.vue'),

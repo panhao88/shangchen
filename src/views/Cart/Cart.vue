@@ -43,9 +43,9 @@
             <div>请确认订单</div>
           </div>
         </div>
-        <div style="display:flex;border-bottom: solid 1px bisque; justify-content: flex-end;">
+        <div style="display:flex;border-bottom: solid 1px bisque; justify-content: flex-end;" v-if="didi === true">
           <div>
-            <van-button type="primary" @click="add" >删除</van-button>
+            <van-button type="primary" @click="add">删除</van-button>
           </div>
           <div>
             <van-button type="info" @click="jiesuan">去结算</van-button>
@@ -57,7 +57,7 @@
             <div class="nima">
               <div style="display:flex;  flex-direction: column;
   justify-content: center;">
-                <van-checkbox icon-size="24px" v-model="item.check"></van-checkbox>
+                <van-checkbox icon-size="24px" v-model="item.check" @change="kkkk"></van-checkbox>
               </div>
               <img :src="item.image_path" alt class="img" />
               <div
@@ -92,9 +92,11 @@ export default {
       username: "",
       shopList: [],
       checkeb: false,
+      didi: false,
       todo: [],
       flags: "1",
-      list: []
+      list: [],
+      didi:false
     };
   },
   components: {},
@@ -118,9 +120,16 @@ export default {
         item.check = this.checkeb;
       });
     },
-    // 反选
-    check(item) {
+    // check(item) {
+    //   this.checkeb = this.shopList.every(item => {
+    //     return item.check === true;
+    //   });
+    // },
+    kkkk() {
       this.checkeb = this.shopList.every(item => {
+        return item.check === true;
+      });
+      this.didi = this.shopList.some(item => {
         return item.check === true;
       });
     },

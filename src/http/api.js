@@ -9,8 +9,8 @@ export default {
 
   // 2、搜索(get)
   // value:搜索关键词
-  search() {
-    return service.get('/search')
+  search(value) {
+    return service.post('/search',{value})
   },
 
   // 3、分类查询(get)
@@ -102,8 +102,8 @@ export default {
   // day: 日
   // id: 用户id
   // nickname: 昵称
-  saveUser() {
-    return service.post('/saveUser')
+  saveUser({gender,year,month,day,id,nickname}) {
+    return service.post('/saveUser',{gender,year,month,day,id,nickname})
   },
 
   // 16、查询用户订单数量(get)
@@ -119,8 +119,8 @@ export default {
   // _id: 商品的_id
   // order_id: 商品的order_id
   // image: []
-  comment() {
-    return service.post('/goodsOne/comment')
+  goodsComment({ id, rate, content, anonymous, _id, order_id, image }) {
+    return service.post('/goodsOne/comment',{ id, rate, content, anonymous, _id, order_id, image })
   },
 
   // 18、获取登录注册默认验证码(get)
@@ -197,7 +197,7 @@ export default {
 
   // 27、订单查询(get)
   getMyOrder() {
-    return service.get('/getMyOrder')
+    return service.get('/myOrder')
   },
 
   // 28、查询已评价(get)

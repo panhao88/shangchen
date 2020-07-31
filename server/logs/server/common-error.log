@@ -860,3 +860,894 @@ name: "unhandledExceptionError"
 pid: 3180
 hostname: SC-202005061634
 
+2020-07-28 15:10:33,434 ERROR 1404 [-/127.0.0.1/-/274ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1404
+hostname: SC-202005061634
+
+2020-07-28 15:10:35,326 ERROR 1404 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1404
+hostname: SC-202005061634
+
+2020-07-28 15:10:35,500 ERROR 1404 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1404
+hostname: SC-202005061634
+
+2020-07-28 15:10:35,702 ERROR 1404 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1404
+hostname: SC-202005061634
+
+2020-07-28 15:10:36,385 ERROR 1404 [-/127.0.0.1/-/2ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1404
+hostname: SC-202005061634
+
+2020-07-28 15:10:36,610 ERROR 1404 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1404
+hostname: SC-202005061634
+
+2020-07-28 15:10:36,635 ERROR 1404 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1404
+hostname: SC-202005061634
+
+2020-07-28 15:10:36,817 ERROR 1404 [-/127.0.0.1/-/1ms POST /v1/order] nodejs.TypeError: Cannot read property 'length' of undefined
+    at OperatingGoodsController.order (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:178:42)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+
+pid: 1404
+hostname: SC-202005061634
+
+2020-07-29 08:53:33,027 ERROR 6504 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:205:27)
+errno: -4077
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 6504
+hostname: SC-202005061634
+
+2020-07-29 10:35:39,514 ERROR 8460 [-/127.0.0.1/-/178ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 10:35:42,728 ERROR 8460 [-/127.0.0.1/-/4ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:04:21,785 ERROR 8460 [-/127.0.0.1/-/22ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:04:27,044 ERROR 8460 [-/127.0.0.1/-/7ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:25,751 ERROR 8460 [-/127.0.0.1/-/11ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:28,301 ERROR 8460 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:28,852 ERROR 8460 [-/127.0.0.1/-/3ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:29,380 ERROR 8460 [-/127.0.0.1/-/6ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:29,568 ERROR 8460 [-/127.0.0.1/-/4ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:29,639 ERROR 8460 [-/127.0.0.1/-/5ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:29,761 ERROR 8460 [-/127.0.0.1/-/8ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:29,942 ERROR 8460 [-/127.0.0.1/-/4ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:30,114 ERROR 8460 [-/127.0.0.1/-/4ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:30,977 ERROR 8460 [-/127.0.0.1/-/42ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:36,250 ERROR 8460 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:50,045 ERROR 8460 [-/127.0.0.1/-/6ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:50,846 ERROR 8460 [-/127.0.0.1/-/8ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:52,557 ERROR 8460 [-/127.0.0.1/-/5ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:52,897 ERROR 8460 [-/127.0.0.1/-/6ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:55,305 ERROR 8460 [-/127.0.0.1/-/13ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:56,816 ERROR 8460 [-/127.0.0.1/-/9ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:57,623 ERROR 8460 [-/127.0.0.1/-/6ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:07:57,803 ERROR 8460 [-/127.0.0.1/-/8ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:11:45,479 ERROR 8460 [-/127.0.0.1/-/4ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:11:52,034 ERROR 8460 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:11:52,373 ERROR 8460 [-/127.0.0.1/-/3ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:11:54,661 ERROR 8460 [-/127.0.0.1/-/6ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:11:56,544 ERROR 8460 [-/127.0.0.1/-/3ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:11:58,254 ERROR 8460 [-/127.0.0.1/-/5ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:11:58,424 ERROR 8460 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:11:58,496 ERROR 8460 [-/127.0.0.1/-/3ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:11:58,633 ERROR 8460 [-/127.0.0.1/-/26ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:11:58,778 ERROR 8460 [-/127.0.0.1/-/3ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+
+2020-07-29 11:12:00,165 ERROR 8460 [-/127.0.0.1/-/2ms POST /v1/goodsOne/comment] nodejs.TypeError: _base64.includes is not a function
+    at ToolsService.getUploadFile (C:\Users\Administrator\Desktop\shang\server\app\service\tools.js:28:21)
+    at OperatingGoodsController.comment (C:\Users\Administrator\Desktop\shang\server\app\controller\api\operatingGoods.js:249:52)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\Administrator\Desktop\shang\server\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:45:18)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:190:18
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:44:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\@eggjs\router\lib\router.js:195:33)
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\app\middleware\isLogin.js:15:19
+    at dispatch (C:\Users\Administrator\Desktop\shang\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\Administrator\Desktop\shang\server\node_modules\egg-development\app\middleware\egg_loader_trace.js:9:56
+
+pid: 8460
+hostname: SC-202005061634
+

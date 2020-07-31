@@ -1,6 +1,9 @@
 <template>
   <div class="box">
-    <dingbu></dingbu>
+   <div class="top">
+     <dingwei></dingwei>
+      <dingbu></dingbu>
+   </div>
     <van-pull-refresh v-model="isLoading" @refresh="onRefresh">
       <lunbotu :slides="slides"></lunbotu>
       <xinxianshuiguo :category="category" :advertesPicture="advertesPicture"></xinxianshuiguo>
@@ -18,6 +21,7 @@
 <script>
 import { Toast } from 'vant';
 import dingbu from "../components/home/dingbu";
+import dingwei from '../components/home/dingwei'
 import lunbotu from "../components/home/lunbotu";
 import xinxianshuiguo from "../components/home/xinxianshuiguo";
 import tuijian from "../components/home/tuijian";
@@ -44,6 +48,7 @@ export default {
   },
   components: {
     dingbu,
+    dingwei,
     lunbotu,
     xinxianshuiguo,
     shangping,
@@ -91,5 +96,13 @@ export default {
   width: 375px;
   display: flex;
   flex-direction: column;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  z-index: 999;
+  background: #fff;
+  width: 100%;
 }
 </style>
