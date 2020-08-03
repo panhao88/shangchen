@@ -85,7 +85,7 @@ export default {
             this.searchlist.map(item => {
               let replaceReg = new RegExp(this.value, "g"); // 匹配关键字正则 要替换的字符
               let replaceString =
-                `<span style='color:red'>` + this.value + "</span>"; // 高亮替换v-html值 替换之后的字符
+                '<span style='color:red">' + this.value + "</span>"; // 高亮替换v-html值 替换之后的字符
               item.names = item.names.replace(replaceReg, replaceString); // 开始替换
             });
             console.log(res);

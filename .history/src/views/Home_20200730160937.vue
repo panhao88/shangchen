@@ -63,7 +63,7 @@ export default {
       setTimeout(() => {
         Toast("刷新成功");
         this.isLoading = false;
-      }, 3000);
+      }, 1000);
     }
   },
   mounted() {
@@ -81,17 +81,6 @@ export default {
         this.floor2 = res.data.floor2;
         this.floor3 = res.data.floor3;
         this.hotGoods = res.data.hotGoods;
-      })
-      .catch(err => {
-        console.log(err);
-      });
-      this.$api
-      .getCard()
-      .then(res => {
-        this.shopList = res.shopList;
-        let num = this.shopList.length;
-        this.$store.commit("setNumber", num);
-        console.log(res);
       })
       .catch(err => {
         console.log(err);

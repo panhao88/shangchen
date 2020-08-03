@@ -85,7 +85,7 @@ export default {
             this.searchlist.map(item => {
               let replaceReg = new RegExp(this.value, "g"); // 匹配关键字正则 要替换的字符
               let replaceString =
-                `<span style='color:red'>` + this.value + "</span>"; // 高亮替换v-html值 替换之后的字符
+                '<span class="highlights-text">' + this.value + "</span>"; // 高亮替换v-html值 替换之后的字符
               item.names = item.names.replace(replaceReg, replaceString); // 开始替换
             });
             console.log(res);
@@ -169,6 +169,7 @@ export default {
 .goods-name {
   margin: 0 8px;
   line-height: 20px;
+  color: red;
 }
 .searchHistory {
   width: 100%;
@@ -219,5 +220,8 @@ export default {
   background: #fff;
   display: flex;
   justify-content: center;
+}
+.highlights-text{
+  color: black;
 }
 </style>

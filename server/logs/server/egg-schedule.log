@@ -61,3 +61,15 @@
 2020-07-31 08:37:17,228 INFO 1592 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
 2020-07-31 08:37:17,228 INFO 1592 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
 2020-07-31 08:37:17,228 INFO 1592 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-03 08:37:38,745 INFO 7464 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-03 08:37:38,745 INFO 7464 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-03 08:37:38,745 INFO 7464 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-03 08:37:38,743 INFO 5416 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-03 08:37:38,743 INFO 5416 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-03 08:37:38,743 INFO 5416 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2020-08-03 08:38:20,013 INFO 2324 [Timer] C:\Users\Administrator\Desktop\shang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js next time will execute after 71500017ms at 2020-08-04 04:30:00.030
+2020-08-03 08:38:20,015 INFO 2324 [Timer] C:\Users\Administrator\Desktop\shang\server\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute after 55299987ms at 2020-08-04 00:00:00.002
+2020-08-03 08:38:20,017 INFO 2324 [Timer] C:\Users\Administrator\Desktop\shang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute after 55300985ms at 2020-08-04 00:00:01.002
+2020-08-03 08:38:22,585 INFO 5284 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-multipart\app\schedule\clean_tmpdir.js
+2020-08-03 08:38:22,586 INFO 5284 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-logrotator\app\schedule\clean_log.js
+2020-08-03 08:38:22,586 INFO 5284 [egg-schedule]: register schedule C:\Users\Administrator\Desktop\shang\server\node_modules\egg-logrotator\app\schedule\rotate_by_file.js

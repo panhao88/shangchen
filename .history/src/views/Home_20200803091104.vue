@@ -96,6 +96,10 @@ export default {
       .catch(err => {
         console.log(err);
       });
+    new BScroll(this.$refs.val, {
+      scrollY: true,
+      click: true
+    });
   },
   watch: {},
   computed: {}

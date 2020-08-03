@@ -63,7 +63,7 @@ export default {
       setTimeout(() => {
         Toast("刷新成功");
         this.isLoading = false;
-      }, 3000);
+      }, 1000);
     }
   },
   mounted() {
@@ -96,6 +96,10 @@ export default {
       .catch(err => {
         console.log(err);
       });
+    new BScroll(this.$refs.val, {
+      scrollY: true,
+      click: true
+    });
   },
   watch: {},
   computed: {}
